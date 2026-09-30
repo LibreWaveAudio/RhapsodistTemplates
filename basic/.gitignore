@@ -1,0 +1,17 @@
+/Binaries/
+/Documentation/
+/Expansions/
+/Presets/
+/Samples/
+/PooledResources/
+/AdditionalSourceCode/
+*.hxi
+*.hxp
+*.hip
+*.dat
+*.hr*
+*.ch*
+._*
+db.json
+.DS_Store
+user_info.xml

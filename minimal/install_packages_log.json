@@ -1,0 +1,433 @@
+[
+  {
+    "Name": "Rhapsodist",
+    "Company": "My Company",
+    "Version": "0.7.9",
+    "Date": "20260928T235115.291+0100",
+    "Steps": [
+      {
+        "Type": "Preprocessor",
+        "Data": {
+        }
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Core.js",
+        "Hash": "3836027128158101710",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/ScriptFX/MultiChannelGain.js",
+        "Hash": "6200161606203535074",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Processors/SamplerPurgeHandler.js",
+        "Hash": "-9140789749825568947",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Processors/TuningHandler.js",
+        "Hash": "-8053240574721466820",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Processors/ConfigurationHandler.js",
+        "Hash": "6821955705889433566",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Includes/LayoutBuilder.js",
+        "Hash": "8366807419509315429",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Includes/StyleHandler.js",
+        "Hash": "6938569384311349054",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Includes/Footer.js",
+        "Hash": "-5176710544907416075",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Includes/ErrorManager.js",
+        "Hash": "-7181669643009261022",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Includes/CoreLookAndFeel.js",
+        "Hash": "6587631621277073563",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Includes/ComponentHandler.js",
+        "Hash": "-3462762123723546502",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Includes/UserSettings.js",
+        "Hash": "4697847686030868748",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Includes/ShellLayout.js",
+        "Hash": "2356292485970595386",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Includes/Tooltips.js",
+        "Hash": "-1940214058260991118",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Includes/PreloadBar.js",
+        "Hash": "8518943169130842441",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Includes/ZoomHandler.js",
+        "Hash": "-7828069876871892906",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Includes/Presets.js",
+        "Hash": "4889782946580222425",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Includes/ArticulationDataManager.js",
+        "Hash": "-8275085958512862921",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Includes/Automation.js",
+        "Hash": "-3590588126780630132",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Includes/Header.js",
+        "Hash": "512589689391392410",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Includes/Expansions.js",
+        "Hash": "4462804687620955989",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Widgets/ValueEdit.js",
+        "Hash": "1566037384013151936",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Widgets/Card.js",
+        "Hash": "-5901823173366812644",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Widgets/SwitcherPanel.js",
+        "Hash": "-2866579161082837356",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Widgets/SettingsPanel.js",
+        "Hash": "-3256000378200187008",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Widgets/Container.js",
+        "Hash": "1682527748653164093",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Core/Widgets/Keyboard.js",
+        "Hash": "3046078464377452446",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Processors/ReleaseTrigger.js",
+        "Hash": "-3238807905419780794",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Processors/NoteTransposer.js",
+        "Hash": "-8429511730807216115",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Processors/Legato.js",
+        "Hash": "-8863262212842685213",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Processors/VelocityRangeFilter.js",
+        "Hash": "8243088005698329540",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Processors/GroupFilter.js",
+        "Hash": "-8890746179419710555",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Processors/LastNoteRetrigger.js",
+        "Hash": "-211775807494955327",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Processors/Mixer.js",
+        "Hash": "2085752516028689654",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Processors/VelocitySetter.js",
+        "Hash": "-3195678426153560748",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Processors/DynamicsModulator.js",
+        "Hash": "-3891169645585512038",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Processors/VelocityScaler.js",
+        "Hash": "-6924461303503679220",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Processors/RoundRobin.js",
+        "Hash": "8086478673870843979",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Processors/LegatoFilter.js",
+        "Hash": "6563476754018671464",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Processors/TimestretchSyncer.js",
+        "Hash": "6011532519221252209",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Processors/AttackOffset.js",
+        "Hash": "6986197195423842760",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Processors/ArticulationGain.js",
+        "Hash": "6494517940880256397",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Processors/VibratoController.js",
+        "Hash": "-1794760780806940022",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Processors/NoteRangeFilter.js",
+        "Hash": "130800939032891296",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Processors/Microtuner.js",
+        "Hash": "6261897463147412833",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Processors/AhdsrController.js",
+        "Hash": "-3056257635751694807",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Processors/RapidNoteSmoother.js",
+        "Hash": "-5403709316224833809",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Includes/ArticulationSwitcher.js",
+        "Hash": "6628178318753848587",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Includes/ReleaseStartOptions.js",
+        "Hash": "-6766544142266213623",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Widgets/ArticulationList.js",
+        "Hash": "3768888870215297092",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Widgets/HarpPedalPanel.js",
+        "Hash": "-4294143761333468733",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Widgets/EnvelopePanel.js",
+        "Hash": "2547378535905220565",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Widgets/VelocityTable.js",
+        "Hash": "4458231445565914405",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Widgets/MicrotuningPanel.js",
+        "Hash": "-4169545005989828293",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Widgets/ListPanel.js",
+        "Hash": "-3989343543959653594",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Widgets/Pager.js",
+        "Hash": "3983282088548313452",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Widgets/EqPanel.js",
+        "Hash": "-4234772992244261978",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Widgets/ButtonGridPanel.js",
+        "Hash": "9068813512499214791",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Scripts/Rhapsodist/Widgets/MixerPanel.js",
+        "Hash": "6915377941512204208",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Images/Fonts/Rhapsodist/Icons/Phosphor-Bold.ttf",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Images/Fonts/Rhapsodist/Icons/Phosphor-Thin.ttf",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Images/Fonts/Rhapsodist/Icons/Phosphor.ttf",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Images/Fonts/Rhapsodist/Icons/Phosphor-Light.ttf",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Images/Fonts/Rhapsodist/Icons/fontaudio.ttf",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Images/Fonts/Rhapsodist/Icons/FontAudio License",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Images/Fonts/Rhapsodist/Icons/Phosphor-Fill.ttf",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Images/Fonts/Rhapsodist/Text/AtkinsonHyperlegibleMono-Bold.ttf",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Images/Fonts/Rhapsodist/Text/AtkinsonHyperlegibleMono-SemiBold.ttf",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Images/Fonts/Rhapsodist/Text/AtkinsonHyperlegibleMono-Regular.ttf",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Images/Fonts/Rhapsodist/Text/OFL.txt",
+        "Hash": "7184896552972204849",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "File",
+        "Target": "Images/Fonts/Rhapsodist/Text/AtkinsonHyperlegibleMono-Medium.ttf",
+        "Modified": "20260928T235115.000+0100"
+      },
+      {
+        "Type": "Info"
+      }
+    ]
+  }
+]

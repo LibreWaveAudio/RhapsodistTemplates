@@ -1,0 +1,16 @@
+*/Binaries/
+*/AudioFiles/
+*/Expansions/
+*/Presets/
+*/Samples/
+*/PooledResources/
+*/package_install.json
+**/Rhapsodist/
+*.hxi
+*.hxp
+*.hr*
+*.ch*
+._*
+.DS_Store
+db.json
+user_info.xml
