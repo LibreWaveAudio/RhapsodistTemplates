@@ -19,7 +19,7 @@ const Manifest = {
 	samplers: [
 		{
 			id: "sampler0",
-			properties: {}
+			properties: {VoiceAmount: 256, VoiceLimit: 192}
 		}
 	],
 	patches: [
