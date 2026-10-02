@@ -7,7 +7,7 @@
     <Component type="ScriptPanel" id="pnlHeader" x="0" y="0" bgColour="-14473172"
                itemColour="0" itemColour2="0" textColour="4292335834" width="1000"
                height="50" parentComponent="pnlMain" locked="1" borderSize="0.0"
-               borderRadius="0.0" text="LIBRARY NAME">
+               borderRadius="0.0" text="MINIMAL">
       <Component type="ScriptSlider" id="knbPatch" x="0" y="0" middlePosition="50.0"
                  stepSize="1.0" max="100.0" bgColour="-15724012" itemColour="4280888368"
                  itemColour2="4292848501" textColour="4292335834" width="100"
@@ -25,7 +25,7 @@
         <Component type="ScriptButton" id="btnPresetBrowser" x="0" y="0" bgColour="0"
                    itemColour="4280888368" itemColour2="4292848501" textColour="4292335834"
                    width="289" height="30" parentComponent="pnlPresetDisplay" saveInPreset="0"
-                   text="Presets" locked="1" enableMidiLearn="0" tooltip="Click to Open Preset Browser"/>
+                   text="Default" locked="1" enableMidiLearn="0" tooltip="Click to Open Preset Browser"/>
         <Component type="ScriptButton" id="btnPreset0" x="287" y="0" bgColour="0"
                    itemColour="4280888368" itemColour2="4292848501" textColour="4292335834"
                    width="15" height="30" parentComponent="pnlPresetDisplay" saveInPreset="0"

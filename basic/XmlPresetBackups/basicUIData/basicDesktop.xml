@@ -25,7 +25,7 @@
         <Component type="ScriptButton" id="btnPresetBrowser" x="0" y="0" bgColour="0"
                    itemColour="4280888368" itemColour2="4292848501" textColour="4292335834"
                    width="289" height="30" parentComponent="pnlPresetDisplay" saveInPreset="0"
-                   text="Presets" locked="1" enableMidiLearn="0" tooltip="Click to Open Preset Browser"/>
+                   text="Default" locked="1" enableMidiLearn="0" tooltip="Click to Open Preset Browser"/>
         <Component type="ScriptButton" id="btnPreset0" x="287" y="0" bgColour="0"
                    itemColour="4280888368" itemColour2="4292848501" textColour="4292335834"
                    width="15" height="30" parentComponent="pnlPresetDisplay" saveInPreset="0"
@@ -171,11 +171,11 @@
           <Component type="ScriptedViewport" id="vptArticulationList" x="5" y="5"
                      fontName="monoRegular" fontSize="18.0" width="300" height="520"
                      saveInPreset="0" parentComponent="pnlArticulationListContainer"
-                     scrollBarThickness="10">
+                     scrollBarThickness="10" viewPositionY="1.0">
             <Component type="ScriptPanel" id="pnlArticulationList" x="0" y="0" parentComponent="vptArticulationList"
                        width="300" height="115" allowCallbacks="All Callbacks" saveInPreset="1"
                        borderSize="0.0" borderRadius="2.0" textColour="4292335834" bgColour="-15724012"
-                       itemColour="-2143403448" itemColour2="4292848501" tooltip="-"/>
+                       itemColour="-2143403448" itemColour2="4292848501"/>
           </Component>
           <Component type="ScriptSliderPack" id="slpArticulationGain" x="0" y="0"
                      parentComponent="pnlArticulationListContainer" sliderAmount="100"
@@ -190,7 +190,8 @@
                    height="175" parentComponent="pnlCard3" bgColour="-15724012"
                    itemColour="4280888368" itemColour2="4292848501" textColour="4292335834"
                    text="Expression" max="127.0" stepSize="1.0" middlePosition="64.0"
-                   defaultValue="64.0" processorId="ccExpression" parameterId="DefaultValue"/>
+                   defaultValue="64.0" processorId="ccExpression" parameterId="DefaultValue"
+                   pluginParameterName="Expression"/>
       </Component>
       <Component type="ScriptPanel" id="pnlCard4" x="670" y="285" width="320"
                  height="265" parentComponent="pnlBody" textColour="4292335834"
@@ -199,12 +200,13 @@
                    height="155" parentComponent="pnlCard4" bgColour="-15724012"
                    itemColour="4280888368" itemColour2="4292848501" textColour="4292335834"
                    text="Rate" max="127.0" stepSize="1.0" middlePosition="64.0"
-                   defaultValue="32.0" processorId="vibratoFrequency" parameterId="DefaultValue"/>
+                   defaultValue="32.0" processorId="vibratoFrequency" parameterId="DefaultValue"
+                   pluginParameterName="Vibrato Rate"/>
         <Component type="ScriptSlider" id="knbVibratoAmount" x="175" y="65" width="120"
                    height="155" parentComponent="pnlCard4" bgColour="-15724012"
                    itemColour="4280888368" itemColour2="4292848501" textColour="4292335834"
                    text="Amount" max="127.0" stepSize="1.0" middlePosition="64.0"
-                   processorId="vibratoIntensity" parameterId="DefaultValue"/>
+                   processorId="vibratoIntensity" parameterId="DefaultValue" pluginParameterName="Vibrato Amount"/>
       </Component>
     </Component>
     <Component type="ScriptPanel" id="pnlFooter" x="0" y="610" bgColour="-14868444"

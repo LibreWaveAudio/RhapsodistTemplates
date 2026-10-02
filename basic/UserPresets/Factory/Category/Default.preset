@@ -3,7 +3,7 @@
 <Preset Version="0.1.0" EngineVersion="0.1.0">
   <Content Processor="Interface">
     <Control type="ScriptSlider" id="knbPatch" value="0.0"/>
-    <Control type="ScriptSlider" id="knbArticulation" value="2.0"/>
+    <Control type="ScriptSlider" id="knbArticulation" value="0.0"/>
     <Control type="ScriptSlider" id="knbMasterPan" value="0.0"/>
     <Control type="ScriptSlider" id="knbMasterVolume" value="-3.0"/>
     <Control type="ScriptTable" id="tblVelocity" value="0.0" data=""/>
@@ -16,7 +16,7 @@
     <Control type="ScriptSlider" id="knbAhdsr6" value="0.5"/>
     <Control type="ScriptSlider" id="knbAhdsr7" value="0.1000000014901161"/>
     <Control type="ScriptSlider" id="knbAhdsr8" value="0.300000011920929"/>
-    <Control type="ScriptPanel" id="pnlArticulationList" value="2.0"/>
+    <Control type="ScriptPanel" id="pnlArticulationList" value="0.0"/>
     <Control type="ScriptSliderPack" id="slpArticulationGain" value="-1.0"
              data="400....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+."/>
     <Control type="ScriptSlider" id="knbExpression" value="64.0"/>
@@ -27,7 +27,20 @@
     <Control type="ScriptSlider" id="knbTranspose" value="0.0"/>
     <Control type="ScriptedViewport" id="vptMpe" value="0.0"/>
   </Content>
-  <MidiAutomation/>
+  <MidiAutomation>
+    <Controller Controller="7" Channel="-1" Processor="Interface" MacroIndex="-1"
+                Start="-100.0" End="0.0" FullStart="-100.0" FullEnd="0.0" Skew="0.3653681296292077"
+                Interval="1.0" Converter="37.nT6K8CBGgC..VEFa0U1Pu4lckIGckIG.ADPXiQWZ1UF.ADf..."
+                Attribute="knbMasterVolume" Inverted="0"/>
+    <Controller Controller="10" Channel="-1" Processor="Interface" MacroIndex="-1"
+                Start="-100.0" End="100.0" FullStart="-100.0" FullEnd="100.0"
+                Skew="1.0" Interval="1.0" Converter="65.nT6K8CBNAG..VEFa0U1Pu4lckIGckIG.ALPXiQWZ1UF.ADf.yUmYlkFd.Dv.EvD.lUmaiQWZu4F.ATPAPEla..."
+                Attribute="knbMasterPan" Inverted="0"/>
+    <Controller Controller="11" Channel="-1" Processor="Interface" MacroIndex="-1"
+                Start="0.0" End="127.0" FullStart="0.0" FullEnd="127.0" Skew="1.011444814893185"
+                Interval="1.0" Converter="37.nT6K8CBGgC..VEFa0U1Pu4lckIGckIG.ADPXiQWZ1UF.ADf..."
+                Attribute="knbExpression" Inverted="0"/>
+  </MidiAutomation>
   <MPEData Enabled="0"/>
   <macro_controls>
     <macro name="Macro 1" value="0.0" midi_cc="-1"/>
