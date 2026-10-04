@@ -36,6 +36,27 @@
           </Content>
           <UIData Source="basicUIData"/>
         </Processor>
+        <Processor Type="ScriptProcessor" ID="tuningHandler" Bypassed="0" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}Rhapsodist/Core/Processors/TuningHandler.js">
+          <ChildProcessors/>
+          <Content>
+            <Control type="ScriptSlider" id="FineTune" value="0.0"/>
+            <Control type="ScriptSlider" id="CoarseTune" value="0.0"/>
+            <Control type="ScriptSlider" id="OctaveTranspose" value="0.0"/>
+            <Control type="ScriptSlider" id="SemiToneTranspose" value="0.0"/>
+          </Content>
+          <UIData>
+            <ContentProperties DeviceType="Desktop">
+              <Component type="ScriptSlider" id="FineTune" x="10" y="0" middlePosition="0"
+                         stepSize="1.0" min="-100.0" max="100.0" suffix="ct" text="Fine Tune"/>
+              <Component type="ScriptSlider" id="CoarseTune" x="160" y="0" middlePosition="0"
+                         stepSize="1.0" min="-12.0" max="12.0" suffix="st" text="Coarse Tune"/>
+              <Component type="ScriptSlider" id="OctaveTranspose" x="310" y="0" middlePosition="0"
+                         stepSize="1.0" min="-2.0" max="2.0" text="Octave Transpose"/>
+              <Component type="ScriptSlider" id="SemiToneTranspose" x="460" y="0" middlePosition="0"
+                         stepSize="1.0" min="-12.0" max="12.0" text="Semi Tone Transpose"/>
+            </ContentProperties>
+          </UIData>
+        </Processor>
         <Processor Type="ScriptProcessor" ID="configurationHandler" Bypassed="0"
                    Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}Rhapsodist/Core/Processors/ConfigurationHandler.js">
           <ChildProcessors/>
@@ -280,27 +301,6 @@
                 </ContentProperties>
               </UIData>
             </Processor>
-            <Processor Type="ScriptProcessor" ID="tuningHandler" Bypassed="0" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}Rhapsodist/Core/Processors/TuningHandler.js">
-              <ChildProcessors/>
-              <Content>
-                <Control type="ScriptSlider" id="FineTune" value="0.0"/>
-                <Control type="ScriptSlider" id="CoarseTune" value="0.0"/>
-                <Control type="ScriptSlider" id="OctaveTranspose" value="0.0"/>
-                <Control type="ScriptSlider" id="SemiToneTranspose" value="0.0"/>
-              </Content>
-              <UIData>
-                <ContentProperties DeviceType="Desktop">
-                  <Component type="ScriptSlider" id="FineTune" x="10" y="0" middlePosition="0"
-                             stepSize="1.0" min="-100.0" max="100.0" suffix="ct" text="Fine Tune"/>
-                  <Component type="ScriptSlider" id="CoarseTune" x="160" y="0" middlePosition="0"
-                             stepSize="1.0" min="-12.0" max="12.0" suffix="st" text="Coarse Tune"/>
-                  <Component type="ScriptSlider" id="OctaveTranspose" x="310" y="0" middlePosition="0"
-                             stepSize="1.0" min="-2.0" max="2.0" text="Octave Transpose"/>
-                  <Component type="ScriptSlider" id="SemiToneTranspose" x="460" y="0" middlePosition="0"
-                             stepSize="1.0" min="-12.0" max="12.0" text="Semi Tone Transpose"/>
-                </ContentProperties>
-              </UIData>
-            </Processor>
             <Processor Type="ScriptProcessor" ID="samplerPurgeHandler" Bypassed="0"
                        NumSliderPacks="1" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}Rhapsodist/Core/Processors/SamplerPurgeHandler.js">
               <ChildProcessors/>
@@ -513,7 +513,7 @@
                 Attribute="knbMasterVolume" Inverted="0"/>
     <Controller Controller="10" Channel="-1" Processor="Interface" MacroIndex="-1"
                 Start="-100.0" End="100.0" FullStart="-100.0" FullEnd="100.0"
-                Skew="1.0" Interval="1.0" Converter="65.nT6K8CBNAG..VEFa0U1Pu4lckIGckIG.ALPXiQWZ1UF.ADf.yUmYlkFd.Dv.EvD.lUmaiQWZu4F.ATPAPEla..."
+                Skew="1.0" Interval="1.0" Converter="53.nT6K8CBKgE..VEFa0U1Pu4lckIGckIG.AHPXiQWZ1UF.ADf.lUmaiQWZu4F.ATPAPEla..."
                 Attribute="knbMasterPan" Inverted="0"/>
     <Controller Controller="11" Channel="-1" Processor="Interface" MacroIndex="-1"
                 Start="0.0" End="127.0" FullStart="0.0" FullEnd="127.0" Skew="1.011444814893185"

@@ -171,11 +171,11 @@
           <Component type="ScriptedViewport" id="vptArticulationList" x="5" y="5"
                      fontName="monoRegular" fontSize="18.0" width="300" height="250"
                      saveInPreset="0" parentComponent="pnlArticulationListContainer"
-                     scrollBarThickness="10" viewPositionY="1.0">
+                     scrollBarThickness="10">
             <Component type="ScriptPanel" id="pnlArticulationList" x="0" y="0" parentComponent="vptArticulationList"
                        width="300" height="115" allowCallbacks="All Callbacks" saveInPreset="1"
                        borderSize="0.0" borderRadius="2.0" textColour="4292335834" bgColour="-15724012"
-                       itemColour="-2143403448" itemColour2="4292848501"/>
+                       itemColour="-2143403448" itemColour2="4292848501" tooltip="-"/>
           </Component>
           <Component type="ScriptSliderPack" id="slpArticulationGain" x="0" y="0"
                      parentComponent="pnlArticulationListContainer" sliderAmount="100"
